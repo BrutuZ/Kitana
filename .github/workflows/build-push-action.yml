@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - 'master'
-      - 'actions'
 
 jobs:
   docker:
@@ -31,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/kitana:latest
+          tags: ${{ github.repository_owner }}:latest
