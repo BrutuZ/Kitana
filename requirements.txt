@@ -6,6 +6,6 @@ jinja2==2.11.3
 PyGithub==1.54.1
 furl==2.1.0
 ndg-httpsclient==0.5.1
-certifi==2020.12.5
+certifi==2022.12.7
 cffi==1.14.5
 cryptography==3.3.2
